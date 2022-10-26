@@ -5,3 +5,5 @@ require_relative "../lib/dancer"
 
 puts Kid.metadata
 puts Dancer.metadata
+kiddo = Kid.new("Linah")
+puts kiddo.name
